@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>在线链接批量添加HTTP协议工具</title>
+    <link rel="stylesheet" href="http.css">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <div class="container">
+      <h1>在线链接批量添加HTTP协议工具</h1>
+      <div class="input-container">
+        <textarea id="input" rows="10" cols="50" placeholder="输入 URL，多个 URL 请用空格或换行符分隔" style="text-align: center;"></textarea>
+      </div>
+      <div class="button-container">
+        <button id="startButton" onclick="processURL()">开始</button>
+        <button id="clearButton" onclick="clearFields()">清除</button>
+		<button id="copyButton" onclick="copyOutput()">复制</button>
+
+      </div>
+      <div class="output-container">
+        <textarea id="output" rows="10" cols="50" placeholder="处理后的 URL" style="text-align: center;"></textarea>
+      </div>
+	  <h2>0xShe 网络安全导航 sbbbb.cn</h2>
+    </div>
+    <script src="http.js"></script>
+  </body>
+</html>
